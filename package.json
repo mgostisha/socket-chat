@@ -1,0 +1,24 @@
+{
+  "name": "learning-backend",
+  "version": "0.0.1",
+  "description": "Simple backend for learning purposes",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.2",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-coffee": "^2.3.3",
+    "gulp-help": "^1.6.1",
+    "gulp-sourcemaps": "^2.4.0"
+  },
+  "scripts": {
+    "start": "gulp dist && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
